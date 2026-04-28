@@ -1,2 +1,6 @@
 # MSA-ConvNeXt
+
 In doped two-dimensional nanomaterials, magnetism is one of the important physical properties. By introducing foreign doping atoms or molecules, the electronic structure of the material can be effectively regulated, leading to changes in magnetic behavior. 
+In this study, we propose Multi-Scale and Attention ConvNeXt (MSA-ConvNeXt) based on multi-scale convolution and attention mechanisms, which consists of the following two core modules: (1) The Multi-scale Convolution Attention Block (MCAB), which models local structural perturbations around dopant atoms and their spatial effects via parallel multi-scale convolutions. It uses a serial channel and spatial attention mechanism to adaptively recalibrate multi-scale features, highlighting the response of doping related regions and enhancing the ability to express dopant-site information; (2) The Visual Geometry Group–Swin Transformer (VGG-Swin) architecture extracts structural features of dopant sites using VGG convolutions to prevent the attenuation of structural information during global relationship modeling.
+
+The original data set is available from the author of this paper: Magnetic Prediction of Doped Two-Dimensional Nanomaterials Based on Swin–ResNet.
